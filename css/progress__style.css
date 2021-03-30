@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/back.jpg);
+    background-size: 100%;
+}
+header{
+}
+.nav__container{
+
+}
+.logo__container{
+    position: absolute;
+    padding: 5px;
+    margin-top: -35px;
+}
+        h2, h6{
+            margin: 0;
+            text-align: center;
+            color: #e8e0e0;
+        }
+            #OneClick{
+
+            }
+            #center{
+            }
+
+.about__container{
+    margin-top: 50px;
+    width: 1170px;
+    height: 440px;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 0 0 7px #000;
+    border-radius: 3%;
+    margin-left: 90px;
+    display: flex;
+}
+
+        .skills__container{
+            width: 350px;
+            height: 320px;
+            outline: 2px solid #686161;
+            margin: 70px;
+            display: block;
+            line-height: 34px;
+        }
+            h1, h2, h3, h4, h5, h6{
+                color: #dbd5d5;
+                text-shadow: 0 0 7px #000;
+                text-align: left;
+                font-family: 'Patua One', cursive;
+            }
+            .skills{
+                color: #b81212;
+                text-align: center;
+                text-shadow: 0 0 7px #000;
+
+            }
+            .skills__content{
+                padding-left: 25px;
+            }
+.programmer__skills__container{
+    width: 540px;
+    height: 320px;
+    outline: 2px solid #686161;
+    margin: 70px;
+    display: block;
+    line-height: 34px;
+}
+    .language_container{
+        padding-top: 26px;
+        line-height: 10px;
+        padding-left: 25px;
+        display: flex;
+    }
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 2px;
+    display: flex;
+    height: 14px;
+    width: 322px;
+    margin-left: 42px;
+}
+
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #3bb5c1;
+    height: 11px;
+    width: 0;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 58%; }
+}
+.color__procent{
+    color: #d0c9c9;
+}
+
+.next_language_container{
+    padding-top: 26px;
+    line-height: 10px;
+    padding-left: 45px;
+    display: flex;
+}
+    .language__color{
+        color: #b81212;
+    }
