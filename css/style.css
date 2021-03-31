@@ -1,0 +1,86 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/back.jpg);
+    background-size: 100%;
+}
+
+header{
+}
+.nav__container{
+
+}
+.logo__container{
+    position: absolute;
+    padding: 5px;
+    margin-top: -35px;
+}
+    h2, h6{
+        margin: 0;
+        text-align: center;
+        color: #e8e0e0;
+    }
+    #OneClick{
+    }
+    #center{
+        text-align: center;
+    }
+
+
+.content__container{
+    margin-top: 50px;
+    width: 800px;
+    height: 320px;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    margin-left: 270px;
+    box-shadow: 0 0 7px #000;
+    padding: 5px;
+    border-radius: 3%;
+
+}
+    .avatar__contain{
+
+    }
+            .avatar{
+                border: 2px solid #b39696;
+                box-shadow: 0 0 7px #666;
+                width: 320px;
+                display: flex;
+                justify-content: left;
+                border-radius: 4%;
+            }
+    .about__container{
+        padding: 35px;
+        width: 500px;
+        font-family: 'Patua One', cursive;
+    }
+        h1, h3, h5{
+            color: #dbd5d5;
+            text-shadow: 0 0 7px #000;
+            text-align: center;
+        }
+            #name{
+                font-size: 50px;
+            }
+            #web{
+                font-size: 20px;
+            }
+    .download{
+        box-shadow: 0 0 7px #615454;
+        width: 110px;
+        height: 24px;
+        text-align: center;
+        background-color: #8076768a;
+        margin-left: 290px;
+        margin-top: 90px;
+        border-radius: 3%;
+    }
+        .footer{
+            font-size: 17px;
+        }
+        a{
+            color: #0bb399;
+            text-decoration: none;
+        }

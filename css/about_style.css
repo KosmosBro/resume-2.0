@@ -1,0 +1,72 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/back.jpg);
+    background-size: 100%;
+}
+header{
+}
+.nav__container{
+
+}
+    .logo__container{
+        position: absolute;
+        padding: 5px;
+        margin-top: -35px;
+    }
+    h2, h6{
+        margin: 0;
+        text-align: center;
+        color: #e8e0e0;
+    }
+        #OneClick{
+
+        }
+        #center{
+        }
+
+.about__container{
+    margin-top: 50px;
+    width: 1170px;
+    height: 440px;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 0 0 7px #000;
+    border-radius: 3%;
+    margin-left: 90px;
+    display: flex;
+}
+
+    .avatar__contain{
+
+    }
+        .avatar{
+            border-radius: 100%;
+            border: 5px solid #b6a6a6;
+            box-shadow: 0 0 7px #666;
+            margin: 20px;
+            width: 180px;
+        }
+    .info__container{
+
+    }
+        h1, h2, h3, h5{
+            color: #dbd5d5;
+            text-shadow: 0 0 7px #000;
+            text-align: left;
+            font-family: 'Patua One', cursive;
+        }
+            #spacing{
+                letter-spacing: 1.4px;
+            }
+            #hello{
+                padding-top:30px;
+                padding-left: 40px;
+                letter-spacing: 1.7px;
+                overflow: hidden;
+            }
+
+    .global__about{
+        padding-top: 70px;
+
+    }
