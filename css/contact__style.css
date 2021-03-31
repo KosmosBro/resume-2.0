@@ -60,6 +60,8 @@ h2, h6{
 
 .link__container{
     display: flex;
+    /*-webkit-pa: right;*/
+
     justify-content: right;
     width: 804px;
     height: 65px;
