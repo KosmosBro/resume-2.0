@@ -85,9 +85,3 @@ h1, h3, h4, h5{
             text-decoration: none;
         }
 
-.col-sm-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-}
