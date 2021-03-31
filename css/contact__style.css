@@ -25,6 +25,7 @@ h2, h6{
 
 }
 #center{
+    text-align: center;
 }
 
 .contact__container{
@@ -80,9 +81,10 @@ h2, h6{
         padding-top: 33px;
     }
 
-h1, h2, h3, h4, h5, h6{
+
+h1, h3, h4, h5{
     color: #dbd5d5;
     text-shadow: 0 0 7px #000;
-    text-align: left;
+    text-align: center;
     font-family: 'Patua One', cursive;
 }

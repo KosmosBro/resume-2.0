@@ -16,13 +16,14 @@ header{
 }
         h2, h6{
             margin: 0;
-            text-align: center;
+            text-align: left;
             color: #e8e0e0;
         }
             #OneClick{
 
             }
             #center{
+                text-align: center;
             }
 
 .about__container{
@@ -44,12 +45,7 @@ header{
             display: block;
             line-height: 34px;
         }
-            h1, h2, h3, h4, h5, h6{
-                color: #dbd5d5;
-                text-shadow: 0 0 7px #000;
-                text-align: left;
-                font-family: 'Patua One', cursive;
-            }
+
             .skills{
                 color: #b81212;
                 text-align: center;
@@ -110,6 +106,20 @@ header{
     padding-left: 45px;
     display: flex;
 }
-    .language__color{
+    #language__color{
         color: #b81212;
     }
+    #language__color2{
+        color: #b81212;
+    }
+
+h1, h3, h4, h5{
+    color: #dbd5d5;
+    text-shadow: 0 0 7px #000;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+.font{
+    font-family: 'Patua One', cursive;
+
+}
