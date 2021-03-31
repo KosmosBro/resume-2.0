@@ -1,8 +1,17 @@
+
 body{
     padding: 0;
     margin: 0;
     background-image: url(../img/back.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 767px) {
+
+    body {
+        color: #615454;
+    }
+
 }
 
 header{
@@ -29,30 +38,29 @@ header{
 
 .content__container{
     margin-top: 50px;
-    width: 800px;
+    width: 62%;
     height: 320px;
     background-color: rgba(0,0,0,0.6);
     display: flex;
-    margin-left: 270px;
+    margin-left: 18%;
     box-shadow: 0 0 7px #000;
     padding: 5px;
     border-radius: 3%;
-
 }
     .avatar__contain{
-
+        width: 37.5%;
     }
             .avatar{
                 border: 2px solid #b39696;
                 box-shadow: 0 0 7px #666;
-                width: 320px;
+                width: 100%;
                 display: flex;
                 justify-content: left;
                 border-radius: 4%;
             }
     .about__container{
         padding: 35px;
-        width: 500px;
+        width: 48%;
         font-family: 'Patua One', cursive;
     }
 h1, h3, h4, h5{
@@ -73,7 +81,7 @@ h1, h3, h4, h5{
         height: 24px;
         text-align: center;
         background-color: #8076768a;
-        margin-left: 290px;
+        margin-left: 360px;
         margin-top: 90px;
         border-radius: 3%;
     }
