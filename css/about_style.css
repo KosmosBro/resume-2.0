@@ -3,7 +3,10 @@ body{
     padding: 0;
     margin: 0;
     background-image: url(../img/back.jpg);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 header{
 }
@@ -29,12 +32,12 @@ header{
 
 .about__container{
     margin-top: 50px;
-    width: 1170px;
+    width: 88%;
     height: 440px;
     background-color: rgba(0,0,0,0.6);
     box-shadow: 0 0 7px #000;
     border-radius: 3%;
-    margin-left: 90px;
+    margin-left: 63px;
     display: flex;
 }
 
@@ -70,5 +73,10 @@ h1, h3, h4, h5{
 
     .global__about{
         padding-top: 70px;
+        padding-right: 130px;
+    }
 
+    #one{
+        text-decoration: none;
+        color: #dbd5d5;
     }

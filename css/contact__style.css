@@ -1,92 +1,109 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-body{
-    padding: 0;
-    margin: 0;
-    background-image: url(../img/back.jpg);
-    background-size: 100%;
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-header{
+header {
 }
-.nav__container{
+.nav__container {
+}
+.logo__container {
+  position: absolute;
+  padding: 5px;
+  margin-top: -35px;
+}
+h2,
+h6 {
+  margin: 0;
+  text-align: center;
+  color: #e8e0e0;
+}
+#OneClick {
+}
+#center {
+  text-align: center;
+}
 
-}
-.logo__container{
-    position: absolute;
-    padding: 5px;
-    margin-top: -35px;
-}
-h2, h6{
-    margin: 0;
-    text-align: center;
-    color: #e8e0e0;
-}
-#OneClick{
-
-}
-#center{
-    text-align: center;
-}
-
-.contact__container{
-    margin-top: 50px;
-    width: 800px;
-    height: 320px;
-    background-color: rgba(0,0,0,0.6);
-    display: block;
-    margin-left: 270px;
-    box-shadow: 0 0 7px #000;
-    padding: 5px;
-    border-radius: 3%;
+.contact__container {
+  margin-top: 50px;
+  width: 60%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 7px #000;
+  padding: 5px;
+  border-radius: 3%;
 }
 
 .social a {
-    text-align: center;
-    width: 48px;
-    height: 48px;
-    float: left;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
-    border-radius: 24px;
-    margin: 0 10px 10px 0;
-    padding: 6px;
-    color: #000;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
 }
-.github a:hover {background: #191919; color: #fff;}
-.instagram a:hover {background: #d71b8e; color: #fff;}
-.facebook a:hover {background: #3b5998; color: #fff;}
-.telegram a:hover {background: #249bd7; color: #fff;}
-
-.link__container{
-    display: flex;
-    /*-webkit-pa: right;*/
-
-    justify-content: right;
-    width: 804px;
-    height: 65px;
-    padding-top: 5px;
+.github a:hover {
+  background: #191919;
+  color: #fff;
 }
-    #contact{
-        color: #b81212;
-        text-shadow: 0 0 7px #000;
-        padding-right: 128px;
-        font-size: 40px;
-    }
-.cont__container{
-    display: block;
+.instagram a:hover {
+  background: #d71b8e;
+  color: #fff;
 }
-    h3{
-        display: flex;
-        letter-spacing: 1.4px;
-        padding-left: 15px;
-        padding-top: 33px;
-    }
+.facebook a:hover {
+  background: #3b5998;
+  color: #fff;
+}
+.telegram a:hover {
+  background: #249bd7;
+  color: #fff;
+}
 
+.link__container {
+  display: flex;
 
-h1, h3, h4, h5{
-    color: #dbd5d5;
-    text-shadow: 0 0 7px #000;
-    text-align: center;
-    font-family: 'Patua One', cursive;
+  justify-content: center;
+  height: 65px;
+  padding-top: 5px;
+}
+#contact {
+  color: #b81212;
+  text-shadow: 0 0 7px #000;
+  padding-right: 128px;
+  font-size: 40px;
+}
+.cont__container {
+  display: block;
+}
+h3 {
+  display: flex;
+  letter-spacing: 1.4px;
+  padding-left: 15px;
+  padding-top: 33px;
+}
+
+h1,
+h3,
+h4,
+h5 {
+  color: #dbd5d5;
+  text-shadow: 0 0 7px #000;
+  text-align: center;
+  font-family: "Patua One", cursive;
+}
+
+#one {
+  text-decoration: none;
+  color: #dbd5d5;
 }
